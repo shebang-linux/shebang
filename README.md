@@ -14,9 +14,9 @@ sudo vim /etc/wpa_supplicant/wpa_supplicant.conf
 sudo sv restart wpa_supplicant
 ```
 
-### Setup Shebang
+### Setup Shebang on Artix
 
 Run the script as root:
 ```
-sudo setup-shebang
+bash <(curl -s https://raw.githubusercontent.com/shebang-linux/setup-shebang/main/setup.sh)
 ```
